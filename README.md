@@ -31,14 +31,33 @@ Se muestra el diagrama del robot con los parámetros articulares, realizado en [
 </p>
 
 
-También encontramos los parámetros DH del robot con las medidas obtenidas
+También encontramos los parámetros DH del robot con las medidas obtenidas.
 
-<p align="center">
-<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/DiagramaRobot.jpg" alt="Diagrama del robot." width="15%"/>
-</p>
+
+
+| Eslabón | Longitud [mm] |
+| :---: | :---: |
+| 1 | 51.2 |
+| 2 | 109.5 |
+| 3| 105.8 |
+| 4 | 64.1 |
+| 5 | 45.5 |
+
+
+| i  | θ<sub>i</sub> | d<sub>i</sub> | a<sub>i</sub> |  α<sub>i</sub>  |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 1  | θ<sub>1</sub>  | L<sub>1</sub> | 0 | -π/2 |
+|  2|  θ<sub>2</sub> - π/2 | 0 | L<sub>2</sub> | 0 |
+|  3|  θ<sub>3</sub> | 0 | L<sub>3</sub> | 0 |
+|  4|  θ<sub>4</sub> + π/2 | 0 | L<sub>4</sub> | 0 |
+|  5|  θ<sub>5</sub> | L<sub>4</sub> + L<sub>5</sub> | 0 | 0 |
+
+
+
 
 <p align="center">
 <img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/ParametrosDHRobot.jpg" alt="Parámetros DH del robot." width="15%"/>
 </p>
+
 
 
