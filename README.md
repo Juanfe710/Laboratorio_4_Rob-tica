@@ -32,7 +32,9 @@ Se muestra el diagrama del robot con los parámetros articulares, realizado en [
 
 
 También encontramos los parámetros DH del robot con las medidas obtenidas.
-
+<p align="center">
+<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/DiagramaRobot.jpg)" alt="Diagrama de Flujo" width="15%"/>
+</p>
 
 
 | Eslabón | Longitud [mm] |
@@ -55,9 +57,6 @@ También encontramos los parámetros DH del robot con las medidas obtenidas.
 
 
 
-<p align="center">
-<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/ParametrosDHRobot.jpg" alt="Parámetros DH del robot." width="15%"/>
-</p>
 
 
 
