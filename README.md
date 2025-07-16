@@ -45,12 +45,12 @@ También encontramos los parámetros DH del robot con las medidas obtenidas.
 
 
 | i  | θ<sub>i</sub> | d<sub>i</sub> | a<sub>i</sub> |  α<sub>i</sub>  |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1  | θ<sub>1</sub>  | L<sub>1</sub> | 0 | -π/2 |
-|  2|  θ<sub>2</sub> - π/2 | 0 | L<sub>2</sub> | 0 |
-|  3|  θ<sub>3</sub> | 0 | L<sub>3</sub> | 0 |
-|  4|  θ<sub>4</sub> + π/2 | 0 | L<sub>4</sub> | 0 |
-|  5|  θ<sub>5</sub> | L<sub>4</sub> + L<sub>5</sub> | 0 | 0 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| 1 | θ<sub>1</sub>  | L<sub>1</sub> | 0 | -π/2 |
+|  2 |  θ<sub>2</sub> - π/2 | 0 | L<sub>2</sub> | 0 |
+|  3 |  θ<sub>3</sub> | 0 | L<sub>3</sub> | 0 |
+|  4 |  θ<sub>4</sub> + π/2 | 0 | L<sub>4</sub> | 0 |
+|  5 |  θ<sub>5</sub> | L<sub>4</sub> + L<sub>5</sub> | 0 | 0 |
 
 
 
