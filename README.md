@@ -22,7 +22,7 @@ También encontramos los parámetros DH del robot con las medidas obtenidas
 </p>
 
 <p align="center">
-<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/ParametrosDHRObot.jpg" alt="Parámetros DH del robot." width="15%"/>
+<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/ParametrosDHRobot.jpg" alt="Parámetros DH del robot." width="15%"/>
 </p>
 
 
