@@ -1,0 +1,58 @@
+##Descripción de las funciones usadas en el Código
+
+El código implementado para la resolución del laboratorio se compone de 12 funciones. Repartidas en el arranque de ROS; sección en la que se declaran los parámetros de funcionamiento del robot y su conexión con Dynamixel, la interfaz gráfica; sección que se desarrolla con ayuda de Thinker y el movimiento del robot; sección que se encarga de darle las órdenes al robot de que realice las acciones.
+
+<ul>
+  <li>
+    <strong>__init__(self):</strong> Inicializa el nodo ROS y todos los componentes del sistema:
+    <ul>
+      <li>Configura parámetros como puerto, baudrate, IDs de servos y posiciones.</li>
+      <li>Establece la conexión con los servos Dynamixel.</li>
+      <li>Crea la ventana gráfica con sus componentes: imagen, nombres, botones y etiquetas.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>agregar_imagen_superior(self):</strong> Carga y muestra una imagen PNG en la parte superior de la ventana. Usa una ruta relativa segura para cargar correctamente la imagen.
+  </li>
+
+  <li>
+    <strong>agregar_nombres(self):</strong> Agrega una etiqueta de texto debajo de la imagen con los nombres de los autores, separados por un salto de línea.
+  </li>
+
+  <li>
+    <strong>create_buttons(self):</strong> Crea los botones correspondientes a las posiciones predefinidas del robot. Cada botón llama a una función que mueve el robot. Incluye también un botón para salir de la aplicación.
+  </li>
+
+  <li>
+    <strong>create_joint_labels(self):</strong> Crea etiquetas para mostrar la posición actual de cada articulación en grados. Estas etiquetas se actualizan después de cada movimiento.
+  </li>
+
+  <li>
+    <strong>enviar_posicion(self, nombre_posicion):</strong> Llama a <code>move_to_position()</code> con las posiciones asociadas al nombre seleccionado por el usuario.
+  </li>
+
+  <li>
+    <strong>move_to_position(self, goal_positions):</strong> Envía las posiciones objetivo a los servos, activa el torque, espera, desactiva el torque y actualiza la posición en pantalla.
+  </li>
+
+  <li>
+    <strong>read_current_positions(self):</strong> Lee la posición actual en bits de cada servo Dynamixel y retorna una lista con los valores.
+  </li>
+
+  <li>
+    <strong>update_joint_positions_display(self, positions):</strong> Convierte los valores en bits a grados y actualiza el texto en pantalla para cada articulación.
+  </li>
+
+  <li>
+    <strong>convert_bits_to_degrees(self, bits):</strong> Convierte una posición en bits (0–1023) a grados (-150° a 150°) mediante una relación lineal.
+  </li>
+
+  <li>
+    <strong>run(self):</strong> Ejecuta el ciclo principal de Tkinter, mostrando y manteniendo la ventana activa hasta que el usuario la cierre.
+  </li>
+
+  <li>
+    <strong>main(args=None):</strong> Función principal que inicializa ROS 2, crea el controlador, ejecuta la GUI y luego cierra ROS.
+  </li>
+</ul>
