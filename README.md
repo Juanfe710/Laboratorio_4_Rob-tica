@@ -3,6 +3,11 @@
 El respectivo diagrama de flujo de las acciones del robot se puede visualizar a continuación
 
 ```mermaid
+---
+config:
+  logLevel: 'debug'
+  theme: 'forest'
+---
 flowchart TD
     A[Correr el código] --> B[Declarar parámetros]
     B --> C[Inciar HMI]
