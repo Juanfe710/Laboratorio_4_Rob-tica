@@ -37,24 +37,21 @@ También encontramos los parámetros DH del robot con las medidas obtenidas.
 </p>
 
 <div align="center">
-| Eslabón | Longitud [mm] |
-| :---: | :---: |
-| 1 | 51.2 |
-| 2 | 109.5 |
-| 3| 105.8 |
-| 4 | 64.1 |
-| 5 | 45.5 |
+
+<table>
+  <tr>
+    <th>Eslabón</th>
+    <th>Longitud [mm]</th>
+  </tr>
+  <tr><td>1</td><td>51.2</td></tr>
+  <tr><td>2</td><td>109.5</td></tr>
+  <tr><td>3</td><td>105.8</td></tr>
+  <tr><td>4</td><td>64.1</td></tr>
+  <tr><td>5</td><td>45.5</td></tr>
+</table>
+
 </div>
 
-<div align="center">
-| i  | θ<sub>i</sub> | d<sub>i</sub> | a<sub>i</sub> |  α<sub>i</sub>  |
-| ------------- | ------------- | ------------- | ------------- | ------------- | 
-| 1 | θ<sub>1</sub>  | L<sub>1</sub> | 0 | -π/2 |
-|  2 |  θ<sub>2</sub> - π/2 | 0 | L<sub>2</sub> | 0 |
-|  3 |  θ<sub>3</sub> | 0 | L<sub>3</sub> | 0 |
-|  4 |  θ<sub>4</sub> + π/2 | 0 | L<sub>4</sub> | 0 |
-|  5 |  θ<sub>5</sub> | L<sub>4</sub> + L<sub>5</sub> | 0 | 0 |
-</div>
 
 <div align="center">
 
