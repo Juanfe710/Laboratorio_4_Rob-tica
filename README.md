@@ -56,6 +56,54 @@ También encontramos los parámetros DH del robot con las medidas obtenidas.
 |  5 |  θ<sub>5</sub> | L<sub>4</sub> + L<sub>5</sub> | 0 | 0 |
 </div>
 
+<div align="center">
+
+<table>
+  <tr>
+    <th>i</th>
+    <th>θ<sub>i</sub></th>
+    <th>d<sub>i</sub></th>
+    <th>a<sub>i</sub></th>
+    <th>α<sub>i</sub></th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>θ<sub>1</sub></td>
+    <td>L<sub>1</sub></td>
+    <td>0</td>
+    <td>-π/2</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>θ<sub>2</sub> - π/2</td>
+    <td>0</td>
+    <td>L<sub>2</sub></td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>θ<sub>3</sub></td>
+    <td>0</td>
+    <td>L<sub>3</sub></td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>θ<sub>4</sub> + π/2</td>
+    <td>0</td>
+    <td>L<sub>4</sub></td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>θ<sub>5</sub></td>
+    <td>L<sub>4</sub> + L<sub>5</sub></td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+
+</div>
 
 
 
