@@ -4,17 +4,19 @@ El respectivo diagrama de flujo de las acciones del robot se puede visualizar a 
 
 ```mermaid
 flowchart TD
-    A[Inicio] --> B[Usuario selecciona una posición]
-    B --> C[Enviar comando de movimiento a servos]
-    C --> D[Servos reciben posiciones objetivo]
-    D --> E[Servos se mueven hacia la posición]
-    E --> F[Esperar a que finalice el movimiento]
-    F --> G[Apagar torque de servos]
-    G --> H[Leer posición actual de cada articulación]
-    H --> I[Convertir bits a grados]
-    I --> J[Mostrar posiciones actuales en pantalla]
-    J --> K[Fin del ciclo]
-    K --> B
+    A[Correr el código] --> B[Declarar parámetros]
+    B --> C[Inciar HMI]
+    C --> D{¿Se seleccionó algún botón?}
+    D -- Sí --> E[Enviar comando de movimiento a servos]
+    D -- No --> C
+    E --> G[Recibir posiciones objetivo]
+    G --> H[Mover articulaciones hacia la posición]
+    H --> I[Esperar a que finalice el movimiento]
+    I --> J[Leer posición actual de cada articulación]
+    J --> K[Convertir bits a grados]
+    K --> L[Mostrar posiciones actuales en pantalla]
+    L --> M[Fin del ciclo]
+    L --> C
 ```
 
 Se muestra el diagrama del robot con los parámetros articulares, realizado en [Glowbuzzer](https://direccion.de/la/pagina).
