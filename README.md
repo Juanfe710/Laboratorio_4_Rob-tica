@@ -107,7 +107,8 @@ flowchart TD
     L --> C
 ```
 <div align="left">
-En el repositorio se encontrará información relevante del laboratorio, que incluye el [plano de planta](https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Plano%20de%20Planta/PlanoPlanta.md), el [código implementado en Python](https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Codigo/control_servo.py), los diagramas utilizados durante el desarrollo del laboratorio, y una [descripción detallada de las funciones empleadas en el código](https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Codigo/DescripcionFunciones.md).
+En el repositorio se encontrará información relevante del laboratorio, que incluye el [plano de planta](./Plano de Planta/PlanoPlanta.md)
+, el [código implementado en Python](https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Codigo/control_servo.py), los diagramas utilizados durante el desarrollo del laboratorio, y una [descripción detallada de las funciones empleadas en el código](https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Codigo/DescripcionFunciones.md).
 
 
 
