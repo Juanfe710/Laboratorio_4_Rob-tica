@@ -1,14 +1,7 @@
 # Laboratorio_4_Robótica
 Inicialmente se analizo el robot, analizando sus articulaciones y el efector final. Con el fin de entender mejor el robot se realizo un diagrama donde se evidencian con facilidad sus articulaciones, luego se calcularon los parametros DH y se realizo un diagrama en la pagina [Glowbuzzer](https://direccion.de/la/pagina).
-
 <p align="center">
-<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/PosiciónRobot.jpeg" alt="Diagrama de los parámetros del robot." width="15%"/>
-</p>
-
-
-También encontramos los parámetros DH del robot con las medidas obtenidas.
-<p align="center">
-<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/DiagramaRobot.jpg" alt="Diagrama del Robot" width="15%"/>
+<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/DiagramaRobot.jpg" alt="Diagrama del Robot" width="40%"/>
 </p>
 
 <div align="center">
@@ -76,6 +69,15 @@ También encontramos los parámetros DH del robot con las medidas obtenidas.
 </table>
 
 </div>
+
+
+<p align="center">
+<img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/PosiciónRobot.jpeg" alt="Diagrama de los parámetros del robot." width="15%"/>
+</p>
+
+
+También encontramos los parámetros DH del robot con las medidas obtenidas.
+
 
 ```mermaid
 ---
