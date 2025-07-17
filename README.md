@@ -1,6 +1,7 @@
 # Laboratorio_4_Robótica
 Inicialmente, se analizó el manipulador Pincher, revisando sus articulaciones y el efector final. Con el objetivo de comprender mejor su funcionamiento, se elaboró un diagrama que facilita la visualización de sus articulaciones. Posteriormente, se calcularon los parámetros DH y se generó un diagrama utilizando la página [Glowbuzzer](https://direccion.de/la/pagina), la cual permite visualizar una aproximación del manipulador a partir de los parámetros DH.
 
+<div align="center">
 <img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/DiagramaRobot.jpg" alt="Diagrama del Robot" width="30%"/>
 </p>
 
