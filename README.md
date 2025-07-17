@@ -76,7 +76,7 @@ Inicialmente, se analizó el manipulador Pincher, revisando sus articulaciones y
 <img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/PosiciónRobot.jpeg" alt="Diagrama de los parámetros del robot." width="35%"/>
 </p>
 
-
+<div align="left">
 Posteriormente, se optó por realizar pruebas de conexión entre la máquina virtual y el manipulador Pincher. Al principio, hubo varios problemas, ya que la máquina virtual requería una configuración específica para poder leer los puertos seriales. Sin embargo, una vez establecida la conexión entre los servomotores Dynamixel y la máquina virtual, se comenzaron a probar las distintas posiciones solicitadas por el profesor. El objetivo de estas pruebas fue verificar que el robot no colisionara al ejecutar dichas poses.
 
 Finalmente, se comenzó a programar la interfaz gráfica utilizando la biblioteca Tkinter de Python. Inicialmente, se configuraron los botones correspondientes a cada posición y, mediante condicionales, se asignó una posición a cada botón. Posteriormente, se ajustó la interfaz gráfica para mostrar los valores de las posiciones de las articulaciones en tiempo real. Finalmente, se añadieron algunos elementos a la interfaz, como el logo de la universidad y la información de los integrantes del grupo. El código correspondiente está en el repositorio y la lógica se muestra a continuación en un diagrama de flujo.
@@ -103,7 +103,7 @@ flowchart TD
     L --> M[Fin del ciclo]
     L --> C
 ```
-
+<div align="left">
 En el repositorio se encontrará información relevante del laboratorio, que incluye el plano de planta, el código implementado en Python, los diagramas utilizados durante el desarrollo del laboratorio, y una descripción detallada de las funciones empleadas en el código.
 
 
