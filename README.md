@@ -1,4 +1,5 @@
-# Laboratorio 4 Robótica  Santiago Zamora Sosa - Juan Felipe Hincapie Gomez
+# Laboratorio 4 Robótica  
+#Santiago Zamora Sosa - Juan Felipe Hincapie Gomez
 Inicialmente, se analizó el manipulador Pincher, revisando sus articulaciones y el efector final. Con el objetivo de comprender mejor su funcionamiento, se elaboró un diagrama que facilita la visualización de sus articulaciones. Posteriormente, se calcularon los parámetros DH y se generó un diagrama utilizando la página [Glowbuzzer](https://direccion.de/la/pagina), la cual permite visualizar una aproximación del manipulador a partir de los parámetros DH.
 
 <div align="center">
