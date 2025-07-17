@@ -1,5 +1,5 @@
 # Laboratorio_4_Robótica
-Inicialmente se analizo el robot, analizando sus articulaciones y el efector final. Con el fin de entender mejor el robot se realizo un diagrama donde se evidencian con facilidad sus articulaciones, luego se calcularon los parametros DH y se realizo un diagrama en la pagina [Glowbuzzer](https://direccion.de/la/pagina).
+Inicialmente, se analizó el robot, revisando sus articulaciones y el efector final. Con el objetivo de comprender mejor su funcionamiento, se elaboró un diagrama que facilita la visualización de sus articulaciones. Posteriormente, se calcularon los parámetros DH y se creó otro diagrama, el cual se encuentra disponible en la página [Glowbuzzer](https://direccion.de/la/pagina).
 <p align="center">
 <img src="https://github.com/Juanfe710/Laboratorio_4_Rob-tica/blob/main/Diagramas%20y%20Par%C3%A1metros%20DH/DiagramaRobot.jpg" alt="Diagrama del Robot" width="30%"/>
 </p>
